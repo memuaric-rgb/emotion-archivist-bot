@@ -5,7 +5,8 @@ import random
 import json
 import os
 
-TOKEN = "8230711419:AAGybC67CS5MYKmPzgBdmizQ0_cq4Is0sWQ"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 
 # Файл для сохранения данных
 DATA_FILE = "user_data.json"
